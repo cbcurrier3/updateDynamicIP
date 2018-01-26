@@ -18,7 +18,7 @@ jq --> a lightweight and flexible command-line JSON processor (already installed
 
 1. Copy the script in a folder (within the Management Server)
 2. Give it execution permission
-3. Put the script in crontab
+3. Put the script in crontab (for example you can run this job each 10 minutes)
 
 ### Notes
 
