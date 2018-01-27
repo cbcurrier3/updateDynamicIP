@@ -13,7 +13,7 @@ Running this script as a cron job can be useful to continuously check if the pub
 
 ### Prerequisites
 
-* I assume a standalone environment (Management Server and Gateway are running in the same appliance).
+* Standalone environment (Management Server and Gateway are running in the same appliance).
 
 * I assume you have an object representing the dynamic public IP address you received from your ISP. This object can be used in policy rule base, NAT rules, and so on.
 
