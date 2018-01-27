@@ -38,7 +38,7 @@ I wrote this just for fun and to learn (and play) a little bit more about Check 
 
 Only tested in R80.10 Standalone environment running on 3200 appliance.
 
-## Authors
+## Author
 
 * **Luca Famà** - *Initial work* - [lfama](https://github.com/lfama)
 
