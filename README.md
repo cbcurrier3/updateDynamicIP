@@ -30,6 +30,8 @@ This script checks if the object representing your public IP address is the actu
 
 I wrote this just for fun and to learn (and play) a little bit more about Check Point Management APIs. 
 
+Only tested in R80.10 Standalone environment.
+
 ## Authors
 
 * **Luca Famà** - *Initial work* - [lfama](https://github.com/lfama)
