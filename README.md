@@ -16,7 +16,7 @@ This script checks if the object representing your public IP address is the actu
 
 * I assume you have an object representing the dynamic public IP address you received from your ISP. This object can be used in policy rule base, NAT rules, and so on.
 
-* [jq] - A lightweight and flexible command-line JSON processor (already installed in R80.10 Management Server). I used this tool to parse the json object.
+* [jq](https://stedolan.github.io/jq/) - A lightweight and flexible command-line JSON processor (already installed in R80.10 Management Server). I used this tool to parse the json object.
 
 
 ### Installing
