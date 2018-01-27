@@ -31,7 +31,7 @@ Running this script as a cron job can be useful to continuously check if the pub
 
 I wrote this just for fun and to learn (and play) a little bit more about Check Point Management APIs. 
 
-Only tested in R80.10 Standalone environment.
+Only tested in R80.10 Standalone environment running on 3200 appliance.
 
 ## Authors
 
