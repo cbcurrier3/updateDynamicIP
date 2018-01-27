@@ -1,10 +1,10 @@
 # UpdateDynamicIP
 
-A very simple bash script that uses Check Point R80.10 APIs in order to update the public IP address you got from your ISP.
+A very simple bash script that uses Check Point R80.10 APIs in order to check and update your dynamic public IP address.
 
 ## Getting Started
 
-If you are using a dynamic public IP address, this can change without knowing in advance. 
+If you are using a dynamic public IP address, this can change without knowing in advance (due to ISP configuration, device reboot, etc.). 
 If your public IP address changes, you will not be able to perform some operation properly (manual NATs, VPN remote access, etc..).
 
 This script checks if the object representing your public IP address is the actual public dynamic IP address you received from your ISP. If it's different, it means the IP changed, so the scripts uses several APIs in order to update the object IP address, update the gateway topology and install the policy. 
