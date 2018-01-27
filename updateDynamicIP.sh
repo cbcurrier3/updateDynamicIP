@@ -61,6 +61,7 @@ else
   sed -i "s/} {/}, {/g" tmp.txt
   payload=[`cat tmp.txt`]
   /opt/CPshrd-R80/bin/mgmt_cli set simple-gateway name $GW_OBJ ipv4-address "$PUBLIC_IP" interfaces "$payload" -u $USER -p $PASSWORD ignore-warnings true
+  
   echo "Installing policies"
   /opt/CPshrd-R80/bin/mgmt_cli install-policy policy-package $POLICY access true threat-prevention false -u $USER -p $PASSWORD
 fi
