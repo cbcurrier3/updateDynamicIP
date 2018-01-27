@@ -23,7 +23,7 @@ Running this script as a cron job can be useful to continuously check if the pub
 ### Installing
 
 1. Copy the script in a folder (within the Management Server)
-2. Open the script with your favorite text editor and set the variables according to your environment
+2. Open the script with a text editor and set the variables according to your environment
 2. Give it execution permission
 3. Put the script in crontab (for example you can run this job each 10 minutes)
 
