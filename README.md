@@ -9,6 +9,7 @@ If your public IP address changes, you will not be able to perform some operatio
 
 This script checks if the object representing your public IP address is the actual public dynamic IP address you received from your ISP. If it's different, it means the IP changed, so the scripts uses several APIs in order to update the object IP address, update the gateway topology and install the policy. 
 
+Running this script as a cron job can be useful to continuously check if the public IP address changed, so that it can be updated with the newly assigned. 
 
 ### Prerequisites
 
