@@ -10,9 +10,9 @@
 ### Edit the following variables according to your needs
 #
 # The Gateway object's name
-GW_OBJ="house"
+GW_OBJ="gwname"
 # PPP interface object's name
-PPP_OBJ="house_pppoe_ext"
+PPP_OBJ="pppoe_ext"
 # PPP interface name as it appears in the gateway (i.e., ifconfig output)
 PPP_IFACE="pppoe1"
 # API Port
@@ -22,7 +22,7 @@ POLICY="Standard"
 # Administrator username
 USER="admin"
 # Administrator password
-PASSWORD="Budw3!s3R#"
+PASSWORD="password"
 
 if [ -f /opt/CPshared/5.0/tmp/.CPprofile.sh ]; then
  . /opt/CPshared/5.0/tmp/.CPprofile.sh
